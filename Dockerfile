@@ -1,4 +1,4 @@
-FROM sdhibit/rpi-raspbian
+FROM jsurf/rpi-raspbian:latest
 RUN [ "cross-build-start" ]
 RUN mkdir -p /temper
 COPY temper /temper
